@@ -1,0 +1,24 @@
+Script started on Thursday 25 April 2019 09:38:05 AM IST
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ #!/usr/bin/perl[2Pprint "hello"#!/usr/bin/perl[Ksudo apt-get install perl
+[sudo] password for s4-d2: 
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+perl is already the newest version (5.22.1-9ubuntu0.6).
+0 upgraded, 0 newly installed, 0 to remove and 31 not upgraded.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ perl hello.pl
+Can't open perl script "hello.pl": No such file or directory
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         ftpser.txt  ftse.txt  perl.txt  [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mDocuments[0m  examples.desktop  ftse2.txt   [01;34mMusic[0m     [01;34mPictures[0m  [01;34mTemplates[0m
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ cd Desktop
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~/Desktop[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~/Desktop[00m$ cd Desktopls[Kperl hello.pl
+hello]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~/Desktop[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~/Desktop[00m$ [K]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~/Desktop[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~/Desktop[00m$ perl hello.pl[K[K[K[K[K[K[K[Kaddtwo.pl
+Enter two numbers 
+6
+4
+Sum = 10
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~/Desktop[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on Thursday 25 April 2019 09:50:14 AM IST

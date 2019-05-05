@@ -1,0 +1,1730 @@
+Script started on Thursday 25 April 2019 10:34:03 AM IST
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ sudo apt update
+[sudo] password for s4-d2: 
+[33m0% [Working][0m            Hit:1 http://packages.microsoft.com/repos/vscode stable InRelease
+[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [1 InRelease gpgv 3,182 B] [Waiting for headers] [Waiting for headers][0m[33m0% [1 InRelease gpgv 3,182 B] [Waiting for headers] [Waiting for headers][0m[33m                                                                         0% [Waiting for headers] [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Hit:2 https://download.sublimetext.com apt/stable/ InRelease
+[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [2 InRelease gpgv 2,562 B] [Waiting for headers] [Waiting for headers][0m[33m                                                                         0% [Waiting for headers] [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m[33m0% [Waiting for headers] [Waiting for headers][0m                                              Get:3 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+[33m0% [Waiting for headers] [3 InRelease 1,448 B/109 kB 1%]       233 B/s 7min 42s[0m                                                                               Hit:4 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+[33m0% [3 InRelease 5,425 B/109 kB 5%]                             233 B/s 7min 25s[0m[33m0% [4 InRelease gpgv 247 kB] [Waiting for headers] [3 InRelease 5,425 B/109 kB [0m[33m0% [Waiting for headers] [3 InRelease 14.1 kB/109 kB 13%]      233 B/s 6min 48s[0m                                                                               Get:5 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+[33m                                                                               0% [5 InRelease 1,097 B/109 kB 1%] [3 InRelease 17.0 kB/109 kB 16%][0m[33m0% [5 InRelease 59.0 kB/109 kB 54%]                            233 B/s 3min 35s[0m[33m0% [3 InRelease gpgv 109 kB] [5 InRelease 59.0 kB/109 kB 54%]  233 B/s 3min 35s[0m[33m0% [5 InRelease 89.4 kB/109 kB 82%]                            233 B/s 1min 24s[0m[33m0% [Working]                                                         233 B/s 0s[0m[33m0% [5 InRelease gpgv 109 kB] [Waiting for headers]                   233 B/s 0s[0m[33m0% [Waiting for headers]                                             233 B/s 0s[0m                                                                               Get:6 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+[33m0% [6 InRelease 0 B/107 kB 0%]                                 233 B/s 7min 38s[0m[33m0% [Working]                                                         233 B/s 0s[0m[33m0% [6 InRelease gpgv 107 kB]                                         233 B/s 0s[0m[33m100% [Working]                                                       233 B/s 0s[0m                                                                               Fetched 325 kB in 7s (44.9 kB/s)
+Reading package lists... 0%Reading package lists... 0%Reading package lists... 1%Reading package lists... 4%Reading package lists... 4%Reading package lists... 8%Reading package lists... 8%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 10%Reading package lists... 27%Reading package lists... 33%Reading package lists... 33%Reading package lists... 52%Reading package lists... 56%Reading package lists... 56%Reading package lists... 69%Reading package lists... 69%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 70%Reading package lists... 74%Reading package lists... 74%Reading package lists... 77%Reading package lists... 77%Reading package lists... 78%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 80%Reading package lists... 83%Reading package lists... 83%Reading package lists... 85%Reading package lists... 85%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 87%Reading package lists... 89%Reading package lists... 89%Reading package lists... 91%Reading package lists... 91%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 94%Reading package lists... 96%Reading package lists... 96%Reading package lists... 97%Reading package lists... 97%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 98%Reading package lists... 99%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 1%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+58 packages can be upgraded. Run 'apt list --upgradable' to see them.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ sudo apche[K[K[K[K[Kinstall apache2
+install: missing destination file operand after 'apache2'
+Try 'install --help' for more information.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ sudo apt install apache2
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 1%Reading state information... Done
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.1-0
+0 upgraded, 9 newly installed, 0 to remove and 58 not upgraded.
+Need to get 1,541 kB of archives.
+After this operation, 6,373 kB of additional disk space will be used.
+Do you want to continue? [Y/n] y Y
+[33m0% [Working][0m            Get:1 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libapr1 amd64 1.5.2-3 [86.0 kB]
+[33m0% [1 libapr1 0 B/86.0 kB 0%][0m[33m                             7% [Working][0m            Get:2 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1 amd64 1.5.4-1build1 [77.1 kB]
+[33m9% [2 libaprutil1 44.3 kB/77.1 kB 57%][0m[33m                                      13% [Working][0m             Get:3 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1-dbd-sqlite3 amd64 1.5.4-1build1 [10.6 kB]
+[33m13% [3 libaprutil1-dbd-sqlite3 2,505 B/10.6 kB 24%][0m[33m                                                   16% [Working][0m             Get:4 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 libaprutil1-ldap amd64 1.5.4-1build1 [8,720 B]
+[33m18% [Waiting for headers][0m                         Get:5 http://in.archive.ubuntu.com/ubuntu xenial/main amd64 liblua5.1-0 amd64 5.1.5-8ubuntu1 [102 kB]
+[33m18% [5 liblua5.1-0 1,178 B/102 kB 1%][0m[33m                                     26% [Working][0m             Get:6 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-bin amd64 2.4.18-2ubuntu3.10 [926 kB]
+[33m26% [6 apache2-bin 0 B/926 kB 0%][0m[33m32% [6 apache2-bin 127 kB/926 kB 14%][0m[33m                                     76% [Working][0m             Get:7 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-utils amd64 2.4.18-2ubuntu3.10 [81.7 kB]
+[33m76% [7 apache2-utils 5,207 B/81.7 kB 6%][0m[33m                                        83% [Working][0m             Get:8 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2-data all 2.4.18-2ubuntu3.10 [162 kB]
+[33m83% [8 apache2-data 3,707 B/162 kB 2%][0m[33m                                      93% [Working][0m             Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 apache2 amd64 2.4.18-2ubuntu3.10 [86.6 kB]
+[33m93% [9 apache2 958 B/86.6 kB 1%][0m[33m                                100% [Working][0m              Fetched 1,541 kB in 1s (1,069 kB/s)
+
+7[0;24r8[1A7[25;0f[42m[30m[49m[39m [..........................................................................] 8
+7[0;57r8[1A7[58;0f[42m[30m[49m[39m [...............................................................................................................................] 8
+7[0;57r8[1ASelecting previously unselected package libapr1:amd64.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 277110 files and directories currently installed.)
+Preparing to unpack .../libapr1_1.5.2-3_amd64.deb ...
+7[58;0f[42m[30mProgress: [  2%][49m[39m [###............................................................................................................] 8Unpacking libapr1:amd64 (1.5.2-3) ...
+7[58;0f[42m[30mProgress: [  4%][49m[39m [#####..........................................................................................................] 87[58;0f[42m[30mProgress: [  6%][49m[39m [########.......................................................................................................] 8Selecting previously unselected package libaprutil1:amd64.
+Preparing to unpack .../libaprutil1_1.5.4-1build1_amd64.deb ...
+7[58;0f[42m[30mProgress: [  8%][49m[39m [##########.....................................................................................................] 8Unpacking libaprutil1:amd64 (1.5.4-1build1) ...
+7[58;0f[42m[30mProgress: [ 10%][49m[39m [#############..................................................................................................] 87[58;0f[42m[30mProgress: [ 13%][49m[39m [###############................................................................................................] 8Selecting previously unselected package libaprutil1-dbd-sqlite3:amd64.
+Preparing to unpack .../libaprutil1-dbd-sqlite3_1.5.4-1build1_amd64.deb ...
+7[58;0f[42m[30mProgress: [ 15%][49m[39m [#################..............................................................................................] 8Unpacking libaprutil1-dbd-sqlite3:amd64 (1.5.4-1build1) ...
+7[58;0f[42m[30mProgress: [ 17%][49m[39m [####################...........................................................................................] 87[58;0f[42m[30mProgress: [ 19%][49m[39m [######################.........................................................................................] 8Selecting previously unselected package libaprutil1-ldap:amd64.
+Preparing to unpack .../libaprutil1-ldap_1.5.4-1build1_amd64.deb ...
+7[58;0f[42m[30mProgress: [ 21%][49m[39m [#########################......................................................................................] 8Unpacking libaprutil1-ldap:amd64 (1.5.4-1build1) ...
+7[58;0f[42m[30mProgress: [ 23%][49m[39m [###########################....................................................................................] 87[58;0f[42m[30mProgress: [ 26%][49m[39m [#############################..................................................................................] 8Selecting previously unselected package liblua5.1-0:amd64.
+Preparing to unpack .../liblua5.1-0_5.1.5-8ubuntu1_amd64.deb ...
+7[58;0f[42m[30mProgress: [ 28%][49m[39m [################################...............................................................................] 8Unpacking liblua5.1-0:amd64 (5.1.5-8ubuntu1) ...
+7[58;0f[42m[30mProgress: [ 30%][49m[39m [##################################.............................................................................] 87[58;0f[42m[30mProgress: [ 32%][49m[39m [#####################################..........................................................................] 8Selecting previously unselected package apache2-bin.
+Preparing to unpack .../apache2-bin_2.4.18-2ubuntu3.10_amd64.deb ...
+7[58;0f[42m[30mProgress: [ 34%][49m[39m [#######################################........................................................................] 8Unpacking apache2-bin (2.4.18-2ubuntu3.10) ...
+7[58;0f[42m[30mProgress: [ 36%][49m[39m [##########################################.....................................................................] 87[58;0f[42m[30mProgress: [ 39%][49m[39m [############################################...................................................................] 8Selecting previously unselected package apache2-utils.
+Preparing to unpack .../apache2-utils_2.4.18-2ubuntu3.10_amd64.deb ...
+7[58;0f[42m[30mProgress: [ 41%][49m[39m [##############################################.................................................................] 8Unpacking apache2-utils (2.4.18-2ubuntu3.10) ...
+7[58;0f[42m[30mProgress: [ 43%][49m[39m [#################################################..............................................................] 87[58;0f[42m[30mProgress: [ 45%][49m[39m [###################################################............................................................] 8Selecting previously unselected package apache2-data.
+Preparing to unpack .../apache2-data_2.4.18-2ubuntu3.10_all.deb ...
+7[58;0f[42m[30mProgress: [ 47%][49m[39m [######################################################.........................................................] 8Unpacking apache2-data (2.4.18-2ubuntu3.10) ...
+7[58;0f[42m[30mProgress: [ 50%][49m[39m [########################################################.......................................................] 87[58;0f[42m[30mProgress: [ 52%][49m[39m [##########################################################.....................................................] 8Selecting previously unselected package apache2.
+Preparing to unpack .../apache2_2.4.18-2ubuntu3.10_amd64.deb ...
+7[58;0f[42m[30mProgress: [ 54%][49m[39m [#############################################################..................................................] 8Unpacking apache2 (2.4.18-2ubuntu3.10) ...
+7[58;0f[42m[30mProgress: [ 56%][49m[39m [###############################################################................................................] 87[58;0f[42m[30mProgress: [ 58%][49m[39m [##################################################################.............................................] 8Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+Processing triggers for systemd (229-4ubuntu21.19) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+ureadahead will be reprofiled on next reboot
+Setting up libapr1:amd64 (1.5.2-3) ...
+7[58;0f[42m[30mProgress: [ 60%][49m[39m [####################################################################...........................................] 87[58;0f[42m[30mProgress: [ 63%][49m[39m [######################################################################.........................................] 8Setting up libaprutil1:amd64 (1.5.4-1build1) ...
+7[58;0f[42m[30mProgress: [ 65%][49m[39m [#########################################################################......................................] 87[58;0f[42m[30mProgress: [ 67%][49m[39m [###########################################################################....................................] 8Setting up libaprutil1-dbd-sqlite3:amd64 (1.5.4-1build1) ...
+7[58;0f[42m[30mProgress: [ 69%][49m[39m [##############################################################################.................................] 87[58;0f[42m[30mProgress: [ 71%][49m[39m [################################################################################...............................] 8Setting up libaprutil1-ldap:amd64 (1.5.4-1build1) ...
+7[58;0f[42m[30mProgress: [ 73%][49m[39m [###################################################################################............................] 87[58;0f[42m[30mProgress: [ 76%][49m[39m [#####################################################################################..........................] 8Setting up liblua5.1-0:amd64 (5.1.5-8ubuntu1) ...
+7[58;0f[42m[30mProgress: [ 78%][49m[39m [#######################################################################################........................] 87[58;0f[42m[30mProgress: [ 80%][49m[39m [##########################################################################################.....................] 8Setting up apache2-bin (2.4.18-2ubuntu3.10) ...
+7[58;0f[42m[30mProgress: [ 82%][49m[39m [############################################################################################...................] 87[58;0f[42m[30mProgress: [ 84%][49m[39m [###############################################################################################................] 8Setting up apache2-utils (2.4.18-2ubuntu3.10) ...
+7[58;0f[42m[30mProgress: [ 86%][49m[39m [#################################################################################################..............] 87[58;0f[42m[30mProgress: [ 89%][49m[39m [###################################################################################################............] 8Setting up apache2-data (2.4.18-2ubuntu3.10) ...
+7[58;0f[42m[30mProgress: [ 91%][49m[39m [######################################################################################################.........] 87[58;0f[42m[30mProgress: [ 93%][49m[39m [########################################################################################################.......] 8Setting up apache2 (2.4.18-2ubuntu3.10) ...
+7[58;0f[42m[30mProgress: [ 95%][49m[39m [###########################################################################################################....] 8Enabling module mpm_event.
+Enabling module authz_core.
+Enabling module authz_host.
+Enabling module authn_core.
+Enabling module auth_basic.
+Enabling module access_compat.
+Enabling module authn_file.
+Enabling module authz_user.
+Enabling module alias.
+Enabling module dir.
+Enabling module autoindex.
+Enabling module env.
+Enabling module mime.
+Enabling module negotiation.
+Enabling module setenvif.
+Enabling module filter.
+Enabling module deflate.
+Enabling module status.
+Enabling conf charset.
+Enabling conf localized-error-pages.
+Enabling conf other-vhosts-access-log.
+Enabling conf security.
+Enabling conf serve-cgi-bin.
+Enabling site 000-default.
+7[58;0f[42m[30mProgress: [ 97%][49m[39m [#############################################################################################################..] 8Processing triggers for libc-bin (2.23-0ubuntu11) ...
+Processing triggers for systemd (229-4ubuntu21.19) ...
+Processing triggers for ureadahead (0.100.0-19) ...
+Processing triggers for ufw (0.35-0ubuntu2) ...
+
+7[0;58r8[1A[J]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ if [Kconfig
+enp0s25   Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+          inet addr:192.168.0.78  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::5bdd:1679:c095:ecb7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:118254 errors:0 dropped:2 overruns:0 frame:0
+          TX packets:27088 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:42107643 (42.1 MB)  TX bytes:3612085 (3.6 MB)
+          Interrupt:19 Memory:f0500000-f0520000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:33292 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:33292 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2465048 (2.4 MB)  TX bytes:2465048 (2.4 MB)
+
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ ifconfig -a
+enp0s25   Link encap:Ethernet  HWaddr 00:24:81:15:b0:6f  
+          inet addr:192.168.0.78  Bcast:192.168.0.255  Mask:255.255.255.0
+          inet6 addr: fe80::5bdd:1679:c095:ecb7/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:121671 errors:0 dropped:2 overruns:0 frame:0
+          TX packets:29077 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:44746757 (44.7 MB)  TX bytes:3884799 (3.8 MB)
+          Interrupt:19 Memory:f0500000-f0520000 
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:33772 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:33772 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:2500568 (2.5 MB)  TX bytes:2500568 (2.5 MB)
+
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ 192.168.0.78 
+192.168.0.78: command not found
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ 192.168.0.78 [2Pifconfig -a[K[K[K[K[K[K[K[K[K[K[Kc[Kls
+apache.txt  [0m[01;34mDocuments[0m  examples.desktop  ftse2.txt  [01;34mMusic[0m              perl.txt  [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mDesktop[0m     [01;34mDownloads[0m  ftpser.txt        ftse.txt   packagemanage.txt  [01;34mPictures[0m  [01;34mTemplates[0m
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ sudo mkdir /var/www/gci/
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ cd[K[Kpwd
+/home/s4-d2
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ cd /var/www/gci/[K]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ cd /var/www/gci/
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /var/www/gci[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/var/www/gci[00m$ nano index.html [A
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;9H(B[0;7m[ Error writing lock file ./.index.html.swp: Permission denied ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: index.html                                  [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[?25l[1;71H(B[0;7mModified[22;2H[ Warning: Modifying a file which is not locked, check directory permission? ][3d(B[m[?12l[?25h[36m<html>[4d<head>[5;3H<title>[39m(B[m Ubuntu rocks! [36m</title>[6d</head>[7d<body>[8;3H<p>[39m(B[m I'm running this website on an Ubuntu Server server![9d[36m</body>[10d</html>[22d[39m(B[m[K[10;8H[C[A[A[A[A[C[A[C[Ca Ubuntu rocks! [36m</title>[5;11H[39m(B[mp Ubuntu rocks! [36m</title>[5;12H[39m(B[m[1P[1PA Ubuntu rocks! [36m</title>[5;11H[39m(B[mP Ubuntu rocks! [36m</title>[5;12H[39m(B[mA Ubuntu rocks! [36m</title>[5;13H[39m(B[mC Ubuntu rocks! [36m</title>[5;14H[39m(B[mH Ubuntu rocks! [36m</title>[5;15H[39m(B[mE Ubuntu rocks! [36m</title>[5;16H[39m(B[m  Ubuntu rocks! [36m</title>[5;17H[39m(B[mS Ubuntu rocks! [36m</title>[5;18H[39m(B[mE Ubuntu rocks! [36m</title>[5;19H[39m(B[mR Ubuntu rocks! [36m</title>[5;20H[39m(B[mV Ubuntu rocks! [36m</title>[5;21H[39m(B[mE Ubuntu rocks! [36m</title>[5;22H[39m(B[mR Ubuntu rocks! [36m</title>[5;23H[39m(B[m[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: index.html                              [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;31H[?25l[22;16H[1K (B[0;7m[ Error writing index.html: Permission denied ](B[m[K[5;23H[?12l[?25h[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[5;23H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: index.html                              [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;31H[?25l[22;16H[1K (B[0;7m[ Error writing index.html: Permission denied ](B[m[K[5;23H[?12l[?25h[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[5;23H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H[J[24;80H[24;1H[?1049l[?1l>]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /var/www/gci[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/var/www/gci[00m$ CD[K[KPW[K[KLS[K[Kls
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /var/www/gci[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/var/www/gci[00m$ lsnano index.html [A
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;9H(B[0;7m[ Error writing lock file ./.index.html.swp: Permission denied ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: index.html                                  [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[?25l[1;71H(B[0;7mModified[22;2H[ Warning: Modifying a file which is not locked, check directory permission? ][3d(B[m[?12l[?25hhtml>[4d[36m<head>[5;3H<title>[39m(B[m Ubuntu rocks! [36m</title>[6d</head>[7d<body>[8;3H<p>[39m(B[m I'm running this website on an Ubuntu Server server![9d[36m</body>[10d</html>[22d[39m(B[m[K[10;8H[?25l[22;25H(B[0;7m[ XOFF ignored, mumble mumble ][10;8H(B[m[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: index.html                              [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;31H(B[0;7m (B[m(B[0;7mL(B[m(B[0;7mSave file under DIFFERENT NAME ?[23d Y(B[m Yes[K[24d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[22;34H(B[0;7mFile Name to Write: index.htmL  [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;31H(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7mT(B[m(B[0;7mX(B[m(B[0;7mT(B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7m (B[m(B[0;7mt(B[m(B[0;7mx(B[m(B[0;7mt(B[m(B[0;7mSave file under DIFFERENT NAME ?[23d Y(B[m Yes[K[24d(B[0;7m N(B[m No    [17G(B[0;7m^C(B[m Cancel[K[22;34H[?25l[22;17H[1K (B[0;7m[ Error writing index.txt: Permission denied ](B[m[K[10;8H[?12l[?25h[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[10;8Hx [22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H[J[24;80H[24;1H[?1049l[?1l>]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /var/www/gci[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/var/www/gci[00m$ nano index.html [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csnano index.htmll[A]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /var/www/gci[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/var/www/gci[00m$ [Cunano index.html[A]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /var/www/gci[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/var/www/gci[00m$ [C[Cdnano index.html[A]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /var/www/gci[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/var/www/gci[00m$ [C[C[Conano index.html[A]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /var/www/gci[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/var/www/gci[00m$ [C[C[C[C nano index.html[A]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /var/www/gci[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/var/www/gci[00m$ [C[C[C[C[C
+
+[sudo] password for s4-d2: 
+[?1049h[1;24r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[22;35H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3              File: index.html                                  [23;1H^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[3d[1;71H(B[0;7mModified[3d(B[mhtml>[4d[36m<head>[5;3H<title>[39m(B[m Ubuntu rocks! [36m</title>[6d</head>[7d<body>[8;3H<p>[39m(B[m I'm running this website on an Ubuntu Server server![9d[36m</body>[10d</html>[22d[39m(B[m[K[10;8H[22d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                    [23;1H Y(B[m Yes[K[24d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[22;62H(B[0;7mFile Name to Write: index.html                              [23d^G(B[m Get Help     (B[0;7mM-D(B[m DOS Format  (B[0;7mM-A(B[m Append[49G(B[0;7mM-B(B[m Backup File[24d(B[0;7m^C(B[m Cancel[17G(B[0;7mM-M(B[m Mac Format  (B[0;7mM-P(B[m Prepend     (B[0;7m^T(B[m To Files[22;31H[?25l[39;49m(B[m[1K (B[0;7m[ Wrote 8 lines ](B[m[K[10;8H[22d[J[1;71H(B[0;7m        [24;80H(B[m[24;1H[?12l[?25h[?1049l[?1l>]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /var/www/gci[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/var/www/gci[00m$ ls
+index.html
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /var/www/gci[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/var/www/gci[00m$ [K]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /var/www/gci[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/var/www/gci[00m$ cd ?[K/etc/apache2/sites-available/
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ ls[K[Kls[K[Kls
+000-default.conf  default-ssl.conf
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo cp 000-default.conf gc i.conf
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo nano gci.[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo cp 000-default.conf gcii.conf[A]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+000-default.conf  default-ssl.conf  gci.conf
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ lssudo cp 000-default.conf gcii.conf[A]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ ls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Ksudo nano gci.comf[K[Knf
+[?1049h[1;10r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[8;47H(B[0;7m[ Reading File ][3d(B[m[8;46H(B[0;7m[ Read 31 lines[3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                        File: gci.conf                                                      [3;1H(B[m<VirtualHost *:80>[4;9H# The ServerName directive sets the request scheme, hostname and port that[5;9H# the server uses to identify itself. This is used when creating[6;9H# redirection URLs. In the context of virtual hosts, the ServerName[7;9H# specifies what hostname must appear in the request's Host: header to[9d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page[10d(B[0;7m^X(B[m Exit[10;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page[3d[10;1H[?1049l[?1l>[?1049h[1;58r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3                        File: gci.conf                                                      [3d(B[m<VirtualHost *:80>[4;9H# The ServerName directive sets the request scheme, hostname and port that[5;9H# the server uses to identify itself. This is used when creating[6;9H# redirection URLs. In the context of virtual hosts, the ServerName[7;9H# specifies what hostname must appear in the request's Host: header to[8;46H(B[0;7m[ Read 31 lines ][9d^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page[10d(B[0;7m^X(B[m Exit[10;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page[3d[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3                        File: gci.conf                                                      [3d(B[m<VirtualHost *:80>[4;9H# The ServerName directive sets the request scheme, hostname and port that[5;9H# the server uses to identify itself. This is used when creating[6;9H# redirection URLs. In the context of virtual hosts, the ServerName[7;9H# specifies what hostname must appear in the request's Host: header to[8;46H(B[0;7m[ Read 31 lines ][9d^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify     (B[0;7m^C(B[m Cur Pos     (B[0;7m^Y(B[m Prev Page[10d(B[0;7m^X(B[m Exit[10;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell    (B[0;7m^_(B[m Go To Line  (B[0;7m^V(B[m Next Page[3d[1;41H(B[0;7m        File: gci.conf[1;109H                         [8;9H(B[m# match this virtual host. For the default virtual host (this file) this[9;8H[1K # value is not decisive as it is used as a last resort host regardless.[K[10;8H[1K # However, you must set it for any further virtual host explicitly.[K[11;9H#ServerName www.example.com[13;9HServerAdmin webmaster@localhost[14;9HDocumentRoot /var/www/html[16;9H# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,[17;9H# error, crit, alert, emerg.[18;9H# It is also possible to configure the loglevel for particular[19;9H# modules, e.g.[20;9H#LogLevel info ssl:warn[22;9HErrorLog ${APACHE_LOG_DIR}/error.log[23;9HCustomLog ${APACHE_LOG_DIR}/access.log combined[25;9H# For most configuration files from conf-available/, which are[26;9H# enabled or disabled at a global level, it is possible to[27;9H# include a line for only one particular virtual host. For example the[28;9H# following line enables the CGI configuration for this host only[29;9H# after it has been globally disabled with "a2disconf".[30;9H#Include conf-available/serve-cgi-bin.conf[31d</VirtualHost>[33d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[57d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line[58d(B[0;7m^X(B[m Exit[58;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line[3d[4d[5d[5;9H[6d[7d[8d#[9d [10dH[11dr[12d[13d[13;9HServerAdmin webmaste[14dw/html[1;124H(B[0;7mModified[14;34H(B[m                        [K[14;9HDocumentRoot /var/www/gci/ServerName gci.example.com                         [58;1H[?1049l[?1l>[?1049h[1;57r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3                                File: gci.conf                                                             Modified  [3;1H(B[m<VirtualHost *:80>[4;9H# The ServerName directive sets the request scheme, hostname and port that[5;9H# the server uses to identify itself. This is used when creating[6;9H# redirection URLs. In the context of virtual hosts, the ServerName[7;9H# specifies what hostname must appear in the request's Host: header to[8;9H# match this virtual host. For the default virtual host (this file) this[9;9H# value is not decisive as it is used as a last resort host regardless.[10;9H# However, you must set it for any further virtual host explicitly.[11;9H#ServerName www.example.com[13;9HServerAdmin webmaster@localhost[14;9HDocumentRoot /var/www/gci/[16;9H# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,[17;9H# error, crit, alert, emerg.[18;9H# It is also possible to configure the loglevel for particular[19;9H# modules, e.g.[20;9H#LogLevel info ssl:warn[22;9HErrorLog ${APACHE_LOG_DIR}/error.log[23;9HCustomLog ${APACHE_LOG_DIR}/access.log combined[25;9H# For most configuration files from conf-available/, which are[26;9H# enabled or disabled at a global level, it is possible to[27;9H# include a line for only one particular virtual host. For example the[28;9H# following line enables the CGI configuration for this host only[29;9H# after it has been globally disabled with "a2disconf".[30;9H#Include conf-available/serve-cgi-bin.conf[31d</VirtualHost>[33d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[57d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line[14;35H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3                                File: gci.conf                                                             Modified  [3;1H(B[m<VirtualHost *:80>[4;9H# The ServerName directive sets the request scheme, hostname and port that[5;9H# the server uses to identify itself. This is used when creating[6;9H# redirection URLs. In the context of virtual hosts, the ServerName[7;9H# specifies what hostname must appear in the request's Host: header to[8;9H# match this virtual host. For the default virtual host (this file) this[9;9H# value is not decisive as it is used as a last resort host regardless.[10;9H# However, you must set it for any further virtual host explicitly.[11;9H#ServerName www.example.com[13;9HServerAdmin webmaster@localhost[14;9HDocumentRoot /var/www/gci/[16;9H# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,[17;9H# error, crit, alert, emerg.[18;9H# It is also possible to configure the loglevel for particular[19;9H# modules, e.g.[20;9H#LogLevel info ssl:warn[22;9HErrorLog ${APACHE_LOG_DIR}/error.log[23;9HCustomLog ${APACHE_LOG_DIR}/access.log combined[25;9H# For most configuration files from conf-available/, which are[26;9H# enabled or disabled at a global level, it is possible to[27;9H# include a line for only one particular virtual host. For example the[28;9H# following line enables the CGI configuration for this host only[29;9H# after it has been globally disabled with "a2disconf".[30;9H#Include conf-available/serve-cgi-bin.conf[31d</VirtualHost>[33d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[57d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line[14;35H[34d[M[57d(B[0;7m^X(B[m Exit[57;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line[14;35H[57;1H[?1049l[?1l>[?1049h[1;58r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.5.3                                File: gci.conf                                                             Modified  [3;1H(B[m<VirtualHost *:80>[4;9H# The ServerName directive sets the request scheme, hostname and port that[5;9H# the server uses to identify itself. This is used when creating[6;9H# redirection URLs. In the context of virtual hosts, the ServerName[7;9H# specifies what hostname must appear in the request's Host: header to[8;9H# match this virtual host. For the default virtual host (this file) this[9;9H# value is not decisive as it is used as a last resort host regardless.[10;9H# However, you must set it for any further virtual host explicitly.[11;9H#ServerName www.example.com[13;9HServerAdmin webmaster@localhost[14;9HDocumentRoot /var/www/gci/[16;9H# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,[17;9H# error, crit, alert, emerg.[18;9H# It is also possible to configure the loglevel for particular[19;9H# modules, e.g.[20;9H#LogLevel info ssl:warn[22;9HErrorLog ${APACHE_LOG_DIR}/error.log[23;9HCustomLog ${APACHE_LOG_DIR}/access.log combined[25;9H# For most configuration files from conf-available/, which are[26;9H# enabled or disabled at a global level, it is possible to[27;9H# include a line for only one particular virtual host. For example the[28;9H# following line enables the CGI configuration for this host only[29;9H# after it has been globally disabled with "a2disconf".[30;9H#Include conf-available/serve-cgi-bin.conf[31d</VirtualHost>[33d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[56d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line[57d(B[0;7m^X(B[m Exit[57;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line[14;35H[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.5.3                                File: gci.conf                                                             Modified  [3;1H(B[m<VirtualHost *:80>[4;9H# The ServerName directive sets the request scheme, hostname and port that[5;9H# the server uses to identify itself. This is used when creating[6;9H# redirection URLs. In the context of virtual hosts, the ServerName[7;9H# specifies what hostname must appear in the request's Host: header to[8;9H# match this virtual host. For the default virtual host (this file) this[9;9H# value is not decisive as it is used as a last resort host regardless.[10;9H# However, you must set it for any further virtual host explicitly.[11;9H#ServerName www.example.com[13;9HServerAdmin webmaster@localhost[14;9HDocumentRoot /var/www/gci/[16;9H# Available loglevels: trace8, ..., trace1, debug, info, notice, warn,[17;9H# error, crit, alert, emerg.[18;9H# It is also possible to configure the loglevel for particular[19;9H# modules, e.g.[20;9H#LogLevel info ssl:warn[22;9HErrorLog ${APACHE_LOG_DIR}/error.log[23;9HCustomLog ${APACHE_LOG_DIR}/access.log combined[25;9H# For most configuration files from conf-available/, which are[26;9H# enabled or disabled at a global level, it is possible to[27;9H# include a line for only one particular virtual host. For example the[28;9H# following line enables the CGI configuration for this host only[29;9H# after it has been globally disabled with "a2disconf".[30;9H#Include conf-available/serve-cgi-bin.conf[31d</VirtualHost>[33d# vim: syntax=apache ts=4 sw=4 sts=4 sr noet[56d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line[57d(B[0;7m^X(B[m Exit[57;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line[14;35H[34d[L[14;35HServerName gci.example.com                         7[15;56r8[15dM[1;58r[15;1H[15;9HServerName gci.example.com[56d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                         [57;1H Y(B[m Yes[K[58d(B[0;7m N(B[m No  [58;18H(B[0;7mC(B[m Cancel[K[56;62H(B[0;7mFile Name to Write: gci.conf                                [57d^G(B[m Get Help[57;27H(B[0;7mM-D(B[m DOS Format[57;53H(B[0;7mM-A(B[m Append[57;79H(B[0;7mM-B(B[m Backup File[58d(B[0;7m^C(B[m Cancel[17G          (B[0;7mM-M(B[m Mac Format[58;53H(B[0;7mM-P(B[m Prepend[58;79H(B[0;7m^T(B[m To Files[56;29H[?25l[56;57H[39;49m(B[m[1K (B[0;7m[ Wrote 32 lines ](B[m[K[15;35H[56d[J[1;124H(B[0;7m        [58;133H(B[m[58;1H[?12l[?25h[?1049l[?1l>]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ [K]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo a2ensite gci.conf
+Enabling site gci.
+To activate the new configuration, you need to run:
+  service apache2 reload
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 reload
+apache2.service is not active, cannot reload.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 reload
+apache2.service is not active, cannot reload.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo ufw status
+Status: inactive
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo ufw app list
+Available applications:
+  Apache
+  Apache Full
+  Apache Secure
+  CUPS
+  Nginx Full
+  Nginx HTTP
+  Nginx HTTPS
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$     sudo ufw allow 'Apache  Full'
+Rules updated
+Rules updated (v6)
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ 
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo ufw app list[2Pstatus
+Status: inactive
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo ufw statusapp list[2Pstatuservice apache2 reload[7Pudo ufw statusapp list[2Pstatus
+Status: inactive
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo ufw statusapp list[K[K[K[K[K[K[K[K[K allow 'Apache Full '
+Skipping adding existing rule
+Skipping adding existing rule (v6)
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo ufw allow 'Apache Full''[A]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ [C[C[C[C[C[C[C[C[C[12Pstatus
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Status: inactive
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo ufw statusallow 'Apache Full''[A]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ [C[C[C[C[C[C[C[C[C[12Pstatus
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Capp list
+Available applications:
+  Apache
+  Apache Full
+  Apache Secure
+  CUPS
+  Nginx Full
+  Nginx HTTP
+  Nginx HTTPS
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo ufw app list[2Pstatusallow 'Apache Full''[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' [K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pl'
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pl'[1Pl'[1Pl'[C[1P'e'
+Rules updated
+Rules updated (v6)
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo ufw allow 'Apache'[6Ppp list[2Pstatus
+Status: inactive
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ activ[K[K[K[K[Ksudo ufw status[K[K[K[K[K[Kenable
+Firewall is active and enabled on system startup
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo ufw enablestatus
+Status: active
+
+To                         Action      From
+--                         ------      ----
+Apache Full                ALLOW       Anywhere                  
+Apache                     ALLOW       Anywhere                  
+Apache Full (v6)           ALLOW       Anywhere (v6)             
+Apache (v6)                ALLOW       Anywhere (v6)             
+
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ sudo ufw statusenablestatusallow 'Apache'[6Ppp list[2Pstatusallow 'Apache Full''[A]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ [C[C[C[C[C[C[C[C[C[12Pstatus
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Capp list[2Pstatuservice apache2 reload
+apache2.service is not active, cannot reload.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 reload[K[K[K[K[K[Kenable
+Usage: apache2 {start|stop|graceful-stop|restart|reload|force-reload}
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 enable[K[K[K[K[K[Kstart
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 startenablereload
+apache2.service is not active, cannot reload.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 reload[K[K[K[Kstart
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 restart[K[K[K[K[K[K[Kforce-reloa d
+apache2.service is not active, cannot reload.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 force-reloadd[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K status
+[?1h=● apache2.service - LSB: Apache2 web server[m
+   Loaded: loaded (/etc/init.d/apache2; bad; vendor preset: enabled)[m
+  Drop-In: /lib/systemd/system/apache2.service.d[m
+           └─apache2-systemd.conf[m
+   Active: inactive (dead) since Thu 2019-04-25 11:49:05 IST; 45s ago[m
+     Docs: man:systemd-sysv-generator(8)[m
+  Process: 7723 ExecStop=/etc/init.d/apache2 stop (code=exited, status=0/SUCCESS)[m
+  Process: 7708 ExecStart=/etc/init.d/apache2 start (code=exited, status=0/SUCCESS)[m
+[m
+[7mlines 1-9[27m[K...skipping...
+● apache2.service - LSB: Apache2 web server[m
+   Loaded: loaded (/etc/init.d/apache2; bad; vendor preset: enabled)[m
+  Drop-In: /lib/systemd/system/apache2.service.d[m
+           └─apache2-systemd.conf[m
+   Active: inactive (dead) since Thu 2019-04-25 11:49:05 IST; 45s ago[m
+     Docs: man:systemd-sysv-generator(8)[m
+  Process: 7723 ExecStop=/etc/init.d/apache2 stop (code=exited, status=0/SUCCESS)[m
+  Process: 7708 ExecStart=/etc/init.d/apache2 start (code=exited, status=0/SUCCESS)[m
+[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: (98)Address already in use: AH00072: make_sock: could not[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: no listening sockets available, shutting down[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: AH00015: Unable to open logs[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: Action 'start' failed.[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: The Apache error log may have more information.[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]:  *[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7723]:  * Stopping Apache httpd web server apache2[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7723]:  *[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower systemd[1]: Started LSB: Apache2 web server.[m
+Apr 25 11:49:36 clab1-HP-Compaq-dc7900-Convertible-Minitower systemd[1]: [0;1;39mapache2.service: Unit cannot be reloaded because it is inact[m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[7mlines 1-19/19 (END)[27m[K[K [K^X^X[K^J^J[K[7mlines 1-19/19 (END)[27m[K[K[K[7mlines 1-19/19 (END)[27m[K[K[K[7mlines 1-19/19 (END)[27m[K[K/[K[K[7mNo previous regular expression  (press RETURN)[27m[58;1H[K[K [KESCESC[KESCESC[K[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KESCESC[K[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+● apache2.service - LSB: Apache2 web server[m
+   Loaded: loaded (/etc/init.d/apache2; bad; vendor preset: enabled)[m
+  Drop-In: /lib/systemd/system/apache2.service.d[m
+           └─apache2-systemd.conf[m
+   Active: inactive (dead) since Thu 2019-04-25 11:49:05 IST; 45s ago[m
+     Docs: man:systemd-sysv-generator(8)[m
+  Process: 7723 ExecStop=/etc/init.d/apache2 stop (code=exited, status=0/SUCCESS)[m
+  Process: 7708 ExecStart=/etc/init.d/apache2 start (code=exited, status=0/SUCCESS)[m
+[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: (98)Address already in use: AH00072: make_sock: could not[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: no listening sockets available, shutting down[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: AH00015: Unable to open logs[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: Action 'start' failed.[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: The Apache error log may have more information.[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]:  *[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7723]:  * Stopping Apache httpd web server apache2[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7723]:  *[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower systemd[1]: Started LSB: Apache2 web server.[m
+Apr 25 11:49:36 clab1-HP-Compaq-dc7900-Convertible-Minitower systemd[1]: [0;1;39mapache2.service: Unit cannot be reloaded because it is inact[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KAA[K[K[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KESCESC[K[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+● apache2.service - LSB: Apache2 web server[m
+   Loaded: loaded (/etc/init.d/apache2; bad; vendor preset: enabled)[m
+  Drop-In: /lib/systemd/system/apache2.service.d[m
+           └─apache2-systemd.conf[m
+   Active: inactive (dead) since Thu 2019-04-25 11:49:05 IST; 45s ago[m
+     Docs: man:systemd-sysv-generator(8)[m
+  Process: 7723 ExecStop=/etc/init.d/apache2 stop (code=exited, status=0/SUCCESS)[m
+  Process: 7708 ExecStart=/etc/init.d/apache2 start (code=exited, status=0/SUCCESS)[m
+[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: (98)Address already in use: AH00072: make_sock: could not[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: no listening sockets available, shutting down[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: AH00015: Unable to open logs[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: Action 'start' failed.[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]: The Apache error log may have more information.[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7708]:  *[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7723]:  * Stopping Apache httpd web server apache2[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower apache2[7723]:  *[m
+Apr 25 11:49:05 clab1-HP-Compaq-dc7900-Convertible-Minitower systemd[1]: Started LSB: Apache2 web server.[m
+Apr 25 11:49:36 clab1-HP-Compaq-dc7900-Convertible-Minitower systemd[1]: [0;1;39mapache2.service: Unit cannot be reloaded because it is inact[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+d)[m
+[m
+[m
+ago[m
+[m
+atus=0/SUCCESS)[m
+status=0/SUCCESS)[m
+[m
+e2[7708]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80[m
+e2[7708]: no listening sockets available, shutting down[m
+e2[7708]: AH00015: Unable to open logs[m
+e2[7708]: Action 'start' failed.[m
+e2[7708]: The Apache error log may have more information.[m
+e2[7708]:  *[m
+e2[7723]:  * Stopping Apache httpd web server apache2[m
+e2[7723]:  *[m
+md[1]: Started LSB: Apache2 web server.[m
+md[1]: [0;1;39mapache2.service: Unit cannot be reloaded because it is inactive.[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+t bind to address 0.0.0.0:80[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39mtive.[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+t bind to address 0.0.0.0:80[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39mtive.[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+d)[m
+[m
+[m
+ago[m
+[m
+atus=0/SUCCESS)[m
+status=0/SUCCESS)[m
+[m
+e2[7708]: (98)Address already in use: AH00072: make_sock: could not bind to address 0.0.0.0:80[m
+e2[7708]: no listening sockets available, shutting down[m
+e2[7708]: AH00015: Unable to open logs[m
+e2[7708]: Action 'start' failed.[m
+e2[7708]: The Apache error log may have more information.[m
+e2[7708]:  *[m
+e2[7723]:  * Stopping Apache httpd web server apache2[m
+e2[7723]:  *[m
+md[1]: Started LSB: Apache2 web server.[m
+md[1]: [0;1;39mapache2.service: Unit cannot be reloaded because it is inactive.[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+t bind to address 0.0.0.0:80[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39mtive.[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KCC[H[2J[H[H[2J[H[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [KESCESC[KOO[KFF[K...skipping...
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[1m~[0m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[m
+[0;1;39m[0m[m
+[7mlines 1-19/19 (END)[27m[K[K [K^X^X
+[1]+  Stopped                 service apache2 status
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ [K[?1l>^[[A^[[A^C^C
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 status[K[K[K[K[K[Kforce-reload[5Prestart
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 restart[Kforce-reload[5Prestart[1Pload
+apache2.service is not active, cannot reload.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 reload[K[K[K[K[K[Kactivate
+Usage: apache2 {start|stop|graceful-stop|restart|reload|force-reload}
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 activate[K[K[K[K[K[K[K[Kstop
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 stopactivate[2Preloadstart[Kforce-reload[5Prestart[1Pload[K[K[K[K[K[K[K start
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 start[1Popactivate[2Preload
+apache2.service is not active, cannot reload.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ ...[K[K[Kcd..
+cd..: command not found
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ apachectl stop
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+httpd (no pid file) not running
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ 
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ /etc/init.d/apache2 start
+[....] Starting apache2 (via systemctl): apache2.service[?25l7[1G[[32m ok [39;49m8[?12l[?25h.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ /etc/init.d/apache2 start[11Papachectl stopcd..[Kservice apache2 reload
+apache2.service is not active, cannot reload.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ service apache2 reload/etc/init.d/apache2 start
+[....] Starting apache2 (via systemctl): apache2.serviceFailed to start apache2.service: Access denied
+See system logs and 'systemctl status apache2.service' for details.
+[?25l7[1G[[31mFAIL[39;49m8[?12l[?25h [31mfailed![39;49m
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ /etc/init.d/apache2 start[K[K[K[K[Kreload
+[....] Reloading apache2 configuration (via systemctl): apache2.serviceapache2.service is not active, cannot reload.
+[?25l7[1G[[31mFAIL[39;49m8[?12l[?25h [31mfailed![39;49m
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/apache2/sites-available[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/apache2/sites-available[00m$ /etc/init.d/apache2 reload[1Pstart[3Pservice apache2 reload/etc/init.d/apache2 start[11Papachectl stopcd..[Kservice apache2 reload[1Pstart[1Popactivate[2Preloadstart[Kforce-reload[5Prestart[1Pload[1Pstartenablereload[7Pudo ufw statusenablestatusallow 'Apache'[6Ppp list[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ cd /etc/init.d/apache2 reload[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[Kc/etc/init.d/s/etc/init.d/[1P/etc/init.d/d/etc/init.d/ /etc/init.d/
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/init.d[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/init.d[00m$ cd /etc/init.d/[K/etc/init.d/apache2 reload[1Pstart[3Pservice apache2 reload/etc/init.d/apache2 start[11Papachectl stop
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+httpd (no pid file) not running
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/init.d[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/init.d[00m$ cd
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ cdapachectl stop
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+httpd (no pid file) not running
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ apachectl stopcd[Kapachectl stopcd /etc/init.d/
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/init.d[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/init.d[00m$ cd /etc/init.d/[1Papachectl stopcd[K[K[K[K]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/init.d[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/init.d[00m$ apache2 start
+Usage: apache2 [-D name] [-d directory] [-f file]
+               [-C "directive"] [-c "directive"]
+               [-k start|restart|graceful|graceful-stop|stop]
+               [-v] [-V] [-h] [-l] [-L] [-t] [-T] [-S] [-X]
+Options:
+  -D name            : define a name for use in <IfDefine name> directives
+  -d directory       : specify an alternate initial ServerRoot
+  -f file            : specify an alternate ServerConfigFile
+  -C "directive"     : process directive before reading config files
+  -c "directive"     : process directive after reading config files
+  -e level           : show startup errors of level (see LogLevel)
+  -E file            : log startup errors to file
+  -v                 : show version number
+  -V                 : show compile settings
+  -h                 : list available command line options (this page)
+  -l                 : list compiled in modules
+  -L                 : list available configuration directives
+  -t -D DUMP_VHOSTS  : show parsed vhost settings
+  -t -D DUMP_RUN_CFG : show parsed run settings
+  -S                 : a synonym for -t -D DUMP_VHOSTS -D DUMP_RUN_CFG
+  -t -D DUMP_MODULES : show all loaded modules 
+  -M                 : a synonym for -t -D DUMP_MODULES
+  -t                 : run syntax check for config files
+  -T                 : start without DocumentRoot(s) check
+  -X                 : debug mode (only one worker, do not detach)
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/init.d[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/init.d[00m$ apache2 startcd /etc/init.d/[2Papache2 start[K[K[K[K[Kreload
+Usage: apache2 [-D name] [-d directory] [-f file]
+               [-C "directive"] [-c "directive"]
+               [-k start|restart|graceful|graceful-stop|stop]
+               [-v] [-V] [-h] [-l] [-L] [-t] [-T] [-S] [-X]
+Options:
+  -D name            : define a name for use in <IfDefine name> directives
+  -d directory       : specify an alternate initial ServerRoot
+  -f file            : specify an alternate ServerConfigFile
+  -C "directive"     : process directive before reading config files
+  -c "directive"     : process directive after reading config files
+  -e level           : show startup errors of level (see LogLevel)
+  -E file            : log startup errors to file
+  -v                 : show version number
+  -V                 : show compile settings
+  -h                 : list available command line options (this page)
+  -l                 : list compiled in modules
+  -L                 : list available configuration directives
+  -t -D DUMP_VHOSTS  : show parsed vhost settings
+  -t -D DUMP_RUN_CFG : show parsed run settings
+  -S                 : a synonym for -t -D DUMP_VHOSTS -D DUMP_RUN_CFG
+  -t -D DUMP_MODULES : show all loaded modules 
+  -M                 : a synonym for -t -D DUMP_MODULES
+  -t                 : run syntax check for config files
+  -T                 : start without DocumentRoot(s) check
+  -X                 : debug mode (only one worker, do not detach)
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: /etc/init.d[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m/etc/init.d[00m$ apache2 reload[1Pstartcd /etc/init.d/[1Papachectl stopcd[Kapachectl stopcd /etc/init.d/[K/etc/init.d/apache2 reload[1Pstart[3Pservice apache2 reload/etc/init.d/apache2 start[11Papachectl stopcd..[Kservice apache2 reload[1Pstart[1Popactivate[2Preloadstart[Kforce-reload[5Prestart[1Pload[1Pstartenablereload[7Pudo ufw statusenablestatusallow 'Apache'[6Ppp list[2Pstatusallow 'Apache Full'status[Kapp list[2Pstatuservice apache2 reloadudo a2ensite gci.conf[4Pnano[C[C[C[C[C[C[C[C[Cls[Ksudo cp 000-default.conf gci.confls[Kcd /etc/apache2/sites-available/ls[Ksudo nano index.html[5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Knano index.htmlcd /var/www/gci/pwd[Ksudo mkdir /var/www/gci/ls[K192.168.0.78 [2Pifconfig -a[Ksudo apt install apache2[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Papt updateexit[Ksudo apt-get upgrade vlc[5P search[C[C[C[Clist --upgradable[11Pupdateexit[Kperl addtwo.pl[1Phello.pl[3Pcd Desktopls[Kperl hello.plsudo apt-get install perl[10P#!/usr/bin/perl[2Pprint "hello"[2Puse strict;print "hello"#!/usr/bin/perlsudo apt-get install perl[12Pperl hello.plls[Kcd Desktopperl hello.pladdtwo.plexit[Ksudo apt updatelist --upgradable[7Psearch vlc[5@-get upgrade[C[C[C[Cexit[Ksudo apt updateinstall apache2[4@apt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pifconfig -a192.168.0.78 ls[Ksudo mkdir /var/www/gci/pwd[Kcd /var/www/gci/[1Pnano index.htmlcd /var/www/gci/[1Pnano index.htmlls[Knano index.html
