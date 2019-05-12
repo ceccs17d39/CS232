@@ -13,14 +13,45 @@ Welcome to elementary OS 0.4.1 Loki (GNU/Linux 4.13.0-32-generic x86_64)
 278 packages can be updated.
 0 updates are security updates.
 
-Last login: Mon Apr  1 10:28:54 2019 from 192.168.0.140
+Last login: Mon Apr  1 10:28:54 2019 from 192.168.0.140
+
 $ ls
 examples.desktop  new
 $ cd new
 $ mkdir newssh
 $ nano file1
-[?1049h[1;58r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[56;61H(B[0;7m[ New File ][3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                 File: file1                                                                         [57;1H^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line[58d(B[0;7m^X(B[m Exit[58;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line[3d[1;124H(B[0;7mModified[3d(B[msssh  h test 1[4dsucccess   [56d[K[4;6H  cess[5d^X[6dX[7d^x[8dexit[9d$ ^X[10d[11dexit[12d[56d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                         [57;1H Y(B[m Yes[K[58d(B[0;7m N(B[m No  [58;18H(B[0;7mC(B[m Cancel[K[56;62H(B[0;7mFile Name to Write: file1                                   [57d^G(B[m Get Help[57;27H(B[0;7mM-D(B[m DOS Format[57;53H(B[0;7mM-A(B[m Append[57;79H(B[0;7mM-B(B[m Backup File[58d(B[0;7m^C(B[m Cancel[17G          (B[0;7mM-M(B[m Mac Format[58;53H(B[0;7mM-P(B[m Prepend[58;79H(B[0;7m^T(B[m To Files[56;26H[?25l[56;57H[39;49m(B[m[1K (B[0;7m[ Wrote 10 lines ](B[m[K[12d[56d[J[1;124H(B[0;7m        [58;133H(B[m[58;1H[?12l[?25h[?1049l[?1l>$ nan   ^[[A^[[A^[[A            nano file1
-[?1049h[1;58r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[56;59H(B[0;7m[ Reading File ][3d(B[m[56;65H(B[0;7m 10 lines ][13d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                 File: file1                                                                         [3;1H(B[mssh test 1[4dsuccess[5d^X[6dX[7d^x[8dexit[9d$ ^X[11dexit[57d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line[58d(B[0;7m^X(B[m Exit[58;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line[3d[56d[J[58;133H[58;1H[?1049l[?1l>$ mkdir newq
+[?1049h[1;58r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[56;61H(B[0;7m[ New File ]
+[3d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                 File: file1                                                                         [57;1H^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line
+[58d(B[0;7m^X(B[m Exit[58;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line
+[3d[1;124H(B[0;7mModified
+[3d(B[msssh  h test 1
+[4dsucccess   
+[56d[K[4;6H  cess
+[5d^X
+[6dX[7d^x
+[8dexit
+[9d$ ^X
+[10d[11dexit
+[12d[56d(B[0;7mSave modified buffer (ANSWERING "No" WILL DESTROY CHANGES) ?                                                                         [57;1H Y(B[m Yes[K
+[58d(B[0;7m N(B[m No  [58;18H(B[0;7mC(B[m Cancel[K[56;62H
+(B[0;7mFile Name to Write: file1                                   
+[57d^G(B[m Get Help[57;27H(B[0;7mM-D(B[m DOS Format[57;53H(B[0;7mM-A(B[m Append[57;79H(B[0;7mM-B(B[m Backup File
+[58d(B[0;7m^C(B[m Cancel[17G          (B[0;7mM-M(B[m Mac Format[58;53H(B[0;7mM-P(B[m Prepend[58;79H(B[0;7m^T(B[m To Files[56;26H[?25l[56;57H[39;49m(B[m[1K (B[0;7m[ Wrote 10 lines ](B[m[K
+[12d[56d[J[1;124H(B[0;7m        [58;133H(B[m[58;1H[?12l[?25h[?1049l
+[?1l>$ nan   ^[[A^[[A^[[A            nano file1
+[?1049h[1;58r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[56;59H(B[0;7m[ Reading File ]
+[3d(B[m[56;65H(B[0;7m 10 lines ]
+[13d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                 File: file1                                                                         [3;1H(B[mssh test 1
+[4dsuccess
+[5d^X
+[6dX[7d^x
+[8dexit
+[9d$ ^X
+[11dexit
+[57d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line
+[58d(B[0;7m^X(B[m Exit[58;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line
+[3d[56d[J[58;133H[58;1H[?1049l
+[?1l>$ mkdir newq
 $ ls
 file1  file.txt  newq  newssh
 $ rm newq
@@ -52,8 +83,17 @@ $ ^[[A^[[A^[[B            -sh   rm file1
 $ ls
 file.txt  newssh
 $ nano file.txt
-[?1049h[1;58r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[56;59H(B[0;7m[ Reading File ][3d(B[m[56;65H(B[0;7m 3 lines[6d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                File: file.txt                                                                       [3;1H(B[munix or linux OS[4dis UNIX good OS[5dis Linux good OS[57d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line[58d(B[0;7m^X(B[m Exit[58;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line[3d[56d[J[58;133H[58;1H[?1049l[?1l>$ exit
-Connection to 192.168.0.30 closed.
+[?1049h[1;58r(B[m[4l[?7h[?1h=[?1h=[?1h=[39;49m[?25l[39;49m(B[m[H[2J[56;59H(B[0;7m[ Reading File ]
+[3d(B[m[56;65H(B[0;7m 3 lines
+[6d(B[m[?12l[?25h[H[39;49m(B[0;7m  GNU nano 2.5.3                                File: file.txt                                                                       [3;1H(B[munix or linux OS
+[4dis UNIX good OS
+[5dis Linux good OS
+[57d(B[0;7m^G(B[m Get Help     (B[0;7m^O(B[m Write Out    (B[0;7m^W(B[m Where Is     (B[0;7m^K(B[m Cut Text     (B[0;7m^J(B[m Justify[81G(B[0;7m^C(B[m Cur Pos[97G(B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line
+[58d(B[0;7m^X(B[m Exit[58;17H(B[0;7m^R(B[m Read File    (B[0;7m^\(B[m Replace[49G(B[0;7m^U(B[m Uncut Text   (B[0;7m^T(B[m To Spell     (B[0;7m^_(B[m Go To Line   (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line
+[3d[56d[J[58;133H[58;1H[?1049l
+[?1l>$ exit
+Connection to 192.168.0.30 closed.
+
 ]0;s4d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ ssh cs17d39@192.168.0.30exit[Kssh cs17d39@192.168.0.30[C[C[C[1P cs17d39@192.168.0.30[1P cs17d39@192.168.0.30[1P cs17d39@192.168.0.30f cs17d39@192.168.0.30t cs17d39@192.168.0.30p cs17d39@192.168.0.30
 ftp: cs17d39@192.168.0.30: Temporary failure in name resolution
 ftp> exit
@@ -83,11 +123,14 @@ sftp> ls
 examples.desktop   new                
 sftp> cd nw[Kew
 sftp> touch s[K sftp.txt
-Invalid command.
+Invalid command.
+
 sftp> cat sftp.txt
-Invalid command.
+Invalid command.
+
 sftp> mk[K[Kopen sftp.xt
-Invalid command.
+Invalid command.
+
 sftp> exit
 ]0;s4d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ sftp cs17d39@192.168.0.30[1P cs17d39@192.168.0.30[1P cs17d39@192.168.0.30[1P cs17d39@192.168.0.30s cs17d39@192.168.0.30h cs17d39@192.168.0.30
 .
@@ -96,10 +139,13 @@ sftp> exit
  \  \  / (.-' |(  (   )|  |  |(.-'
   `' `'   `--'` `-'`-' '  '  ` `--'
 cs17d39@192.168.0.30's password: 
-Permission denied, please try again.
+Permission denied, please try again.
+
 cs17d39@192.168.0.30's password: 
-Connection to 192.168.0.30 closed by remote host.
-Connection to 192.168.0.30 closed.
+Connection to 192.168.0.30 closed by remote host.
+
+Connection to 192.168.0.30 closed.
+
 ]0;s4d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ ssh cs17d39@192.168.0.30[1@ftp[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
 .
               |
@@ -127,22 +173,27 @@ abc.txt  Desktop    examples.desktop  file.txt	linux1.txt  networking	 Pictures 
 adialu	 Documents  file2.txt	      grep.txt	linux.txt   output1.txt  Public    Templates
 a.out	 Downloads  file3.txt	      hello.c	Music	    output2.txt  sort.txt  vapu
 sftp> get file.txt
-File "/home/cs17d39/new/sftp/file.txt" not found.
+File "/home/cs17d39/new/sftp/file.txt" not found.
+
 sftp> put file,[K.txt
 Uploading file.txt to /home/cs17d39/new/sftp/file.txt
-file.txt                                                                                             0%    0     0.0KB/s   --:-- ETAfile.txt                                                                                           100%   50     0.1KB/s   00:00    
+
+file.txt                                                                                             0%    0     0.0KB/s   --:-- ETA
+file.txt                                                                                           100%   50     0.1KB/s   00:00    
 sftp> ls
 file.txt  
 sftp> rm file.txt
 Removing /home/cs17d39/new/sftp/file.txt
 sftp> touch f.txt
-Invalid command.
+Invalid command.
+
 sftp> lls
 abc.txt  Desktop    examples.desktop  file.txt	linux1.txt  networking	 Pictures  ssh	      Videos
 adialu	 Documents  file2.txt	      grep.txt	linux.txt   output1.txt  Public    Templates
 a.out	 Downloads  file3.txt	      hello.c	Music	    output2.txt  sort.txt  vapu
 sftp> cd Downloads
-Couldn't stat remote file: No such file or directory
+Couldn't stat remote file: No such file or directory
+
 sftp> exit
 ]0;s4d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ sftp cs17d39@192.168.0.30
 .
