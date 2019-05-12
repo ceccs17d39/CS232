@@ -1,0 +1,815 @@
+Script started on Thursday 25 April 2019 10:14:14 AM IST
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ sup[Kdo apt update
+[sudo] password for s4-d2: 
+[33m
+0% [Working][0m
+            
+Get:1 http://packages.microsoft.com/repos/vscode stable InRelease [3,182 B]
+[33m
+0% [Waiting for headers] [Waiting for headers] [1 InRelease 3,182 B/3,182 B 100%][0m[33m
+                                                                                 
+0% [Waiting for headers] [Waiting for headers][0m
+                                              
+Hit:2 http://in.archive.ubuntu.com/ubuntu xenial InRelease
+
+                                              
+Get:3 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
+[33m
+                                              
+0% [Waiting for headers][0m
+                        
+Get:4 http://in.archive.ubuntu.com/ubuntu xenial-updates InRelease [109 kB]
+[33m
+0% [1 InRelease gpgv 3,182 B] [Waiting for headers][0m
+                                                   
+Get:5 http://in.archive.ubuntu.com/ubuntu xenial-backports InRelease [107 kB]
+[33m
+0% [1 InRelease gpgv 3,182 B] [5 InRelease 3,745 B/107 kB 4%][0m[33m
+                                                             
+0% [1 InRelease gpgv 3,182 B][0m[33m
+                             
+0% [Working][0m[33m
+0% [2 InRelease gpgv 247 kB] [Waiting for headers][0m[33m
+                                                  
+0% [Waiting for headers][0m[33m
+0% [3 InRelease gpgv 109 kB] [Waiting for headers][0m
+                                                  
+Get:6 http://packages.microsoft.com/repos/vscode stable/main amd64 Packages [112 kB]
+[33m
+0% [3 InRelease gpgv 109 kB] [6 Packages 0 B/112 kB 0%][0m[33m
+                                                       
+0% [6 Packages 14.1 kB/112 kB 13%][0m[33m
+0% [4 InRelease gpgv 109 kB] [Waiting for headers] [6 Packages 14.1 kB/112 kB 13%][0m[33m
+                                                                                  
+0% [Waiting for headers] [6 Packages 14.1 kB/112 kB 13%][0m[33m
+0% [5 InRelease gpgv 107 kB] [Waiting for headers] [Waiting for headers] [6 Packages 14.1 kB/112 kB 13%][0m[33m
+                                                                                                        
+0% [Waiting for headers] [Waiting for headers] [6 Packages 43.1 kB/112 kB 38%][0m[33m
+                                                                              
+0% [Waiting for headers] [Waiting for headers][0m[33m
+0% [6 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m
+                                                                     
+Get:7 https://download.sublimetext.com apt/stable/ InRelease [2,562 B]
+[33m
+0% [6 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m[33m
+0% [6 Packages store 0 B] [7 InRelease gpgv 2,562 B] [Waiting for headers] [Waiting for headers][0m
+                                                                                                
+Get:8 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [638 kB]
+[33m
+0% [6 Packages store 0 B] [7 InRelease gpgv 2,562 B] [Waiting for headers] [8 Packages 1,448 B/638 kB 0%][0m[33m
+                                                                                                         
+0% [7 InRelease gpgv 2,562 B] [Waiting for headers] [8 Packages 5,527 B/638 kB 1%][0m[33m
+                                                                                  
+20% [Waiting for headers] [8 Packages 11.3 kB/638 kB 2%][0m
+                                                        
+Get:9 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 Packages [945 kB]
+[33m
+20% [9 Packages 0 B/945 kB 0%] [8 Packages 14.2 kB/638 kB 2%][0m[33m
+22% [9 Packages 117 kB/945 kB 12%] [8 Packages 133 kB/638 kB 21%][0m[33m
+                                                                 
+31% [9 Packages 601 kB/945 kB 64%][0m[33m
+32% [8 Packages store 0 B] [9 Packages 622 kB/945 kB 66%] [Waiting for headers][0m[33m
+                                                                               
+35% [8 Packages store 0 B] [Waiting for headers][0m[33m
+                                                
+35% [Waiting for headers] [Waiting for headers][0m[33m
+35% [9 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m
+                                                                      
+Get:10 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages [530 kB]
+[33m
+35% [9 Packages store 0 B] [Waiting for headers] [10 Packages 0 B/530 kB 0%][0m[33m
+                                                                            
+40% [9 Packages store 0 B] [Waiting for headers][0m
+                                                
+Get:11 http://in.archive.ubuntu.com/ubuntu xenial-updates/main i386 Packages [819 kB]
+[33m
+40% [9 Packages store 0 B] [11 Packages 0 B/819 kB 0%] [Waiting for headers][0m[33m
+                                                                            
+44% [11 Packages 417 kB/819 kB 51%] [Waiting for headers][0m[33m
+44% [10 Packages store 0 B] [11 Packages 417 kB/819 kB 51%] [Waiting for headers][0m
+                                                                                 
+Get:12 http://security.ubuntu.com/ubuntu xenial-security/main Translation-en [261 kB]
+[33m
+44% [10 Packages store 0 B] [11 Packages 417 kB/819 kB 51%] [12 Translation-en 8,176 B/261 kB 3%][0m[33m
+                                                                                                 
+47% [10 Packages store 0 B] [11 Packages 417 kB/819 kB 51%][0m[33m
+                                                           
+47% [11 Packages 417 kB/819 kB 51%] [Waiting for headers][0m[33m
+47% [12 Translation-en store 0 B] [11 Packages 417 kB/819 kB 51%] [Waiting for headers][0m[33m
+                                                                                       
+51% [12 Translation-en store 0 B] [Waiting for headers][0m[33m
+                                                       
+51% [Waiting for headers] [Waiting for headers][0m[33m
+51% [11 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m
+                                                                       
+Get:13 http://in.archive.ubuntu.com/ubuntu xenial-updates/main Translation-en [378 kB]
+[33m
+51% [11 Packages store 0 B] [13 Translation-en 0 B/378 kB 0%] [Waiting for headers][0m[33m
+                                                                                   
+54% [11 Packages store 0 B] [Waiting for headers][0m[33m
+                                                 
+54% [Waiting for headers] [Waiting for headers][0m[33m
+54% [13 Translation-en store 0 B] [Waiting for headers] [Waiting for headers][0m
+                                                                             
+Get:14 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata [67.9 kB]
+[33m
+55% [13 Translation-en store 0 B] [Waiting for headers] [14 Components-amd64 1,106 B/67.9 kB 2%][0m[33m
+                                                                                                
+55% [13 Translation-en store 0 B] [Waiting for headers][0m[33m
+                                                       
+55% [Waiting for headers] [Waiting for headers][0m[33m
+55% [14 Components-amd64 store 0 B] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                               
+55% [Waiting for headers] [Waiting for headers][0m
+                                               
+Get:15 http://in.archive.ubuntu.com/ubuntu xenial-updates/main amd64 DEP-11 Metadata [318 kB]
+[33m
+56% [15 Components-amd64 5,279 B/318 kB 2%] [Waiting for headers][0m
+                                                                 
+Get:16 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons [67.1 kB]
+[33m
+57% [15 Components-amd64 190 kB/318 kB 60%] [16 icons-64x64 1,106 B/67.1 kB 2%][0m[33m
+                                                                               
+59% [15 Components-amd64 274 kB/318 kB 86%] [Waiting for headers][0m[33m
+59% [16 icons-64x64 store 0 B] [15 Components-amd64 274 kB/318 kB 86%] [Waiting for headers][0m[33m
+                                                                                            
+59% [15 Components-amd64 274 kB/318 kB 86%] [Waiting for headers][0m[33m
+                                                                 
+59% [Waiting for headers][0m[33m
+59% [15 Components-amd64 store 0 B] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                               
+59% [Waiting for headers] [Waiting for headers][0m
+                                               
+Get:17 http://in.archive.ubuntu.com/ubuntu xenial-updates/main DEP-11 64x64 Icons [229 kB]
+[33m
+59% [17 icons-64x64 3,832 B/229 kB 2%] [Waiting for headers][0m
+                                                            
+Get:18 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 Packages [434 kB]
+[33m
+61% [17 icons-64x64 141 kB/229 kB 61%] [18 Packages 3,831 B/434 kB 1%][0m[33m
+                                                                      
+62% [18 Packages 80.3 kB/434 kB 19%][0m[33m
+62% [17 icons-64x64 store 0 B] [18 Packages 80.3 kB/434 kB 19%][0m[33m
+                                                               
+64% [Waiting for headers] [18 Packages 198 kB/434 kB 46%][0m[33m
+                                                         
+66% [Waiting for headers][0m[33m
+66% [18 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                       
+66% [Waiting for headers] [Waiting for headers][0m
+                                               
+Get:19 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 Packages [746 kB]
+[33m
+66% [19 Packages 0 B/746 kB 0%] [Waiting for headers][0m
+                                                     
+Get:20 http://security.ubuntu.com/ubuntu xenial-security/universe i386 Packages [378 kB]
+[33m
+66% [19 Packages 8,423 B/746 kB 1%] [20 Packages 6,728 B/378 kB 2%][0m[33m
+                                                                   
+70% [19 Packages 14.2 kB/746 kB 2%][0m[33m
+70% [20 Packages store 0 B] [19 Packages 14.2 kB/746 kB 2%] [Waiting for headers][0m[33m
+                                                                                 
+70% [19 Packages 14.2 kB/746 kB 2%] [Waiting for headers][0m
+                                                         
+Get:21 http://security.ubuntu.com/ubuntu xenial-security/universe Translation-en [176 kB]
+[33m
+70% [19 Packages 60.6 kB/746 kB 8%] [21 Translation-en 5,279 B/176 kB 3%][0m[33m
+                                                                         
+72% [19 Packages 66.3 kB/746 kB 9%][0m[33m
+72% [21 Translation-en store 0 B] [19 Packages 66.3 kB/746 kB 9%] [Waiting for headers][0m[33m
+                                                                                       
+72% [19 Packages 80.8 kB/746 kB 11%] [Waiting for headers][0m
+                                                          
+Get:22 http://security.ubuntu.com/ubuntu xenial-security/universe amd64 DEP-11 Metadata [116 kB]
+[33m
+75% [19 Packages 294 kB/746 kB 39%] [22 Components-amd64 5,280 B/116 kB 5%][0m[33m
+                                                                           
+76% [19 Packages 305 kB/746 kB 41%][0m[33m
+76% [22 Components-amd64 store 0 B] [19 Packages 311 kB/746 kB 42%] [Waiting for headers][0m[33m
+                                                                                         
+77% [19 Packages 376 kB/746 kB 50%] [Waiting for headers][0m[33m
+                                                         
+80% [Waiting for headers][0m[33m
+80% [19 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m
+                                                                       
+Get:23 http://security.ubuntu.com/ubuntu xenial-security/universe DEP-11 64x64 Icons [173 kB]
+[33m
+80% [19 Packages store 0 B] [Waiting for headers] [23 icons-64x64 5,280 B/173 kB 3%][0m[33m
+                                                                                    
+82% [19 Packages store 0 B] [Waiting for headers][0m[33m
+                                                 
+82% [Waiting for headers] [Waiting for headers][0m[33m
+82% [23 icons-64x64 store 0 B] [Waiting for headers] [Waiting for headers][0m
+                                                                          
+Get:24 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe i386 Packages [683 kB]
+[33m
+82% [23 icons-64x64 store 0 B] [24 Packages 0 B/683 kB 0%] [Waiting for headers][0m[33m
+                                                                                
+82% [24 Packages 17.1 kB/683 kB 3%] [Waiting for headers][0m
+                                                         
+Get:25 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 Packages [5,604 B]
+[33m
+87% [24 Packages 518 kB/683 kB 76%] [25 Packages 3,835 B/5,604 B 68%][0m[33m
+                                                                     
+87% [24 Packages 549 kB/683 kB 80%][0m[33m
+87% [25 Packages store 0 B] [24 Packages 549 kB/683 kB 80%] [Waiting for headers][0m[33m
+                                                                                 
+88% [24 Packages 573 kB/683 kB 84%] [Waiting for headers][0m[33m
+                                                         
+89% [Waiting for headers][0m[33m
+89% [24 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m
+                                                                       
+Get:26 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe Translation-en [310 kB]
+[33m
+89% [24 Packages store 0 B] [26 Translation-en 3,832 B/310 kB 1%] [Waiting for headers][0m[33m
+                                                                                       
+89% [26 Translation-en 35.7 kB/310 kB 12%] [Waiting for headers][0m[33m
+                                                                
+92% [Waiting for headers] [Waiting for headers][0m[33m
+92% [26 Translation-en store 0 B] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                             
+92% [Waiting for headers] [Waiting for headers][0m
+                                               
+Get:27 http://security.ubuntu.com/ubuntu xenial-security/multiverse i386 Packages [5,764 B]
+[33m
+92% [Waiting for headers] [27 Packages 5,283 B/5,764 B 92%][0m[33m
+                                                           
+92% [Waiting for headers][0m[33m
+92% [27 Packages store 0 B] [Waiting for headers] [Waiting for headers][0m[33m
+                                                                       
+92% [Waiting for headers] [Waiting for headers][0m
+                                               
+Get:28 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe amd64 DEP-11 Metadata [252 kB]
+[33m
+92% [28 Components-amd64 0 B/252 kB 0%] [Waiting for headers]                                                          1,249 kB/s 0s[0m[33m
+95% [Waiting for headers]                                                                                              1,249 kB/s 0s[0m[33m
+95% [28 Components-amd64 store 0 B] [Waiting for headers] [Waiting for headers]                                        1,249 kB/s 0s[0m[33m
+95% [Waiting for headers] [Waiting for headers]                                                                        1,249 kB/s 0s[0m
+                                                                                                                                    
+Get:29 http://security.ubuntu.com/ubuntu xenial-security/multiverse amd64 DEP-11 Metadata [2,464 B]
+[33m
+95% [Waiting for headers] [29 Components-amd64 2,464 B/2,464 B 100%]                                                   1,249 kB/s 0s[0m[33m
+95% [Waiting for headers]                                                                                              1,249 kB/s 0s[0m[33m
+95% [29 Components-amd64 store 0 B] [Waiting for headers]                                                              1,249 kB/s 0s[0m[33m
+95% [Waiting for headers]                                                                                              1,249 kB/s 0s[0m
+                                                                                                                                    
+Get:30 http://in.archive.ubuntu.com/ubuntu xenial-updates/universe DEP-11 64x64 Icons [350 kB]
+[33m
+95% [30 icons-64x64 3,832 B/350 kB 1%]                                                                                 1,249 kB/s 0s[0m[33m
+98% [Working]                                                                                                          1,249 kB/s 0s[0m[33m
+98% [30 icons-64x64 store 0 B] [Waiting for headers]                                                                   1,249 kB/s 0s[0m[33m
+98% [Waiting for headers]                                                                                              1,249 kB/s 0s[0m
+                                                                                                                                    
+Get:31 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 Packages [16.7 kB]
+[33m
+99% [31 Packages 3,834 B/16.7 kB 23%]                                                                                  1,249 kB/s 0s[0m[33m
+99% [Working]                                                                                                          1,249 kB/s 0s[0m[33m
+99% [31 Packages store 0 B] [Waiting for headers]                                                                      1,249 kB/s 0s[0m[33m
+99% [Waiting for headers]                                                                                              1,249 kB/s 0s[0m
+                                                                                                                                    
+Get:32 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse i386 Packages [15.8 kB]
+[33m
+99% [32 Packages 5,282 B/15.8 kB 33%]                                                                                  1,249 kB/s 0s[0m[33m
+99% [Working]                                                                                                          1,249 kB/s 0s[0m[33m
+99% [32 Packages store 0 B] [Waiting for headers]                                                                      1,249 kB/s 0s[0m[33m
+99% [Waiting for headers]                                                                                              1,249 kB/s 0s[0m
+                                                                                                                                    
+Get:33 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse amd64 DEP-11 Metadata [5,968 B]
+[33m
+99% [33 Components-amd64 5,968 B/5,968 B 100%]                                                                         1,249 kB/s 0s[0m[33m
+99% [Waiting for headers]                                                                                              1,249 kB/s 0s[0m[33m
+99% [33 Components-amd64 store 0 B] [Waiting for headers]                                                              1,249 kB/s 0s[0m[33m
+99% [Waiting for headers]                                                                                              1,249 kB/s 0s[0m
+                                                                                                                                    
+Get:34 http://in.archive.ubuntu.com/ubuntu xenial-updates/multiverse DEP-11 64x64 Icons [14.3 kB]
+[33m
+99% [34 icons-64x64 3,834 B/14.3 kB 27%]                                                                               1,249 kB/s 0s[0m[33m
+99% [Working]                                                                                                          1,249 kB/s 0s[0m[33m
+99% [34 icons-64x64 store 0 B] [Waiting for headers]                                                                   1,249 kB/s 0s[0m[33m
+100% [Waiting for headers]                                                                                             1,249 kB/s 0s[0m
+                                                                                                                                    
+Get:35 http://in.archive.ubuntu.com/ubuntu xenial-backports/main amd64 DEP-11 Metadata [3,328 B]
+[33m
+100% [35 Components-amd64 3,328 B/3,328 B 100%]                                                                        1,249 kB/s 0s[0m[33m
+100% [Working]                                                                                                         1,249 kB/s 0s[0m[33m
+100% [35 Components-amd64 store 0 B] [Waiting for headers]                                                             1,249 kB/s 0s[0m[33m
+100% [Waiting for headers]                                                                                             1,249 kB/s 0s[0m
+                                                                                                                                    
+Get:36 http://in.archive.ubuntu.com/ubuntu xenial-backports/universe amd64 DEP-11 Metadata [5,104 B]
+[33m
+100% [36 Components-amd64 5,104 B/5,104 B 100%]                                                                        1,249 kB/s 0s[0m[33m
+100% [Working]                                                                                                         1,249 kB/s 0s[0m[33m
+100% [36 Components-amd64 store 0 B]                                                                                   1,249 kB/s 0s[0m[33m
+100% [Working]                                                                                                         1,249 kB/s 0s[0m
+                                                                                                                                    
+Fetched 8,390 kB in 8s (996 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 1%
+
+Reading package lists... 4%
+
+Reading package lists... 4%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 10%
+
+Reading package lists... 26%
+
+Reading package lists... 33%
+
+Reading package lists... 33%
+
+Reading package lists... 50%
+
+Reading package lists... 56%
+
+Reading package lists... 56%
+
+Reading package lists... 69%
+
+Reading package lists... 69%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 70%
+
+Reading package lists... 74%
+
+Reading package lists... 74%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 77%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 80%
+
+Reading package lists... 83%
+
+Reading package lists... 83%
+
+Reading package lists... 85%
+
+Reading package lists... 85%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 87%
+
+Reading package lists... 89%
+
+Reading package lists... 89%
+
+Reading package lists... 91%
+
+Reading package lists... 91%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 1%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 1%
+
+Reading state information... Done
+
+58 packages can be upgraded. Run 'apt list --upgradable' to see them.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ sudo apt list --upgradable
+
+Listing... 0%
+
+Listing... 0%
+
+Listing... 1%
+
+Listing... Done
+
+[32mcode[0m/stable 1.33.1-1554971066 amd64 [upgradable from: 1.33.0-1554390824]
+[32mconsole-setup[0m/xenial-updates,xenial-updates 1.108ubuntu15.5 all [upgradable from: 1.108ubuntu15.4]
+[32mconsole-setup-linux[0m/xenial-updates,xenial-updates 1.108ubuntu15.5 all [upgradable from: 1.108ubuntu15.4]
+[32mdistro-info-data[0m/xenial-updates,xenial-updates,xenial-security,xenial-security 0.28ubuntu0.11 all [upgradable from: 0.28ubuntu0.10]
+[32mfirefox[0m/xenial-updates,xenial-security 66.0.3+build1-0ubuntu0.16.04.1 amd64 [upgradable from: 66.0.2+build1-0ubuntu0.16.04.1]
+[32mfirefox-locale-en[0m/xenial-updates,xenial-security 66.0.3+build1-0ubuntu0.16.04.1 amd64 [upgradable from: 66.0.2+build1-0ubuntu0.16.04.1]
+[32mkeyboard-configuration[0m/xenial-updates,xenial-updates 1.108ubuntu15.5 all [upgradable from: 1.108ubuntu15.4]
+[32mlibdrm-amdgpu1[0m/xenial-updates 2.4.91-2~16.04.1 amd64 [upgradable from: 2.4.70-1~ubuntu16.04.1]
+[32mlibdrm2[0m/xenial-updates 2.4.91-2~16.04.1 amd64 [upgradable from: 2.4.70-1~ubuntu16.04.1]
+[32mlibegl1-mesa[0m/xenial-updates 18.0.5-0ubuntu0~16.04.1 amd64 [upgradable from: 12.0.6-0ubuntu0.16.04.1]
+[32mlibgbm1[0m/xenial-updates 18.0.5-0ubuntu0~16.04.1 amd64 [upgradable from: 12.0.6-0ubuntu0.16.04.1]
+[32mlibgl1-mesa-dri[0m/xenial-updates 18.0.5-0ubuntu0~16.04.1 amd64 [upgradable from: 12.0.6-0ubuntu0.16.04.1]
+[32mlibgl1-mesa-glx[0m/xenial-updates 18.0.5-0ubuntu0~16.04.1 amd64 [upgradable from: 12.0.6-0ubuntu0.16.04.1]
+[32mlibglapi-mesa[0m/xenial-updates 18.0.5-0ubuntu0~16.04.1 amd64 [upgradable from: 12.0.6-0ubuntu0.16.04.1]
+[32mlibinput10[0m/xenial-updates 1.6.3-1ubuntu1~16.04.1 amd64 [upgradable from: 1.2.3-1ubuntu1]
+[32mlibmm-glib0[0m/xenial-updates 1.6.4-1ubuntu0.16.04.1 amd64 [upgradable from: 1.4.12-1ubuntu1]
+[32mlibpam-systemd[0m/xenial-updates,xenial-security 229-4ubuntu21.21 amd64 [upgradable from: 229-4ubuntu21.19]
+[32mlibqmi-proxy[0m/xenial-updates 1.16.2-1ubuntu0.16.04.1 amd64 [upgradable from: 1.12.6-1]
+[32mlibsmbclient[0m/xenial-updates,xenial-security 2:4.3.11+dfsg-0ubuntu0.16.04.19 amd64 [upgradable from: 2:4.3.11+dfsg-0ubuntu0.16.04.18]
+[32mlibsnapd-glib1[0m/xenial-updates 1.47-0ubuntu0.16.04.0 amd64 [upgradable from: 1.33-0ubuntu0.16.04.1]
+[32mlibsystemd0[0m/xenial-updates,xenial-security 229-4ubuntu21.21 amd64 [upgradable from: 229-4ubuntu21.19]
+[32mlibudev1[0m/xenial-updates,xenial-security 229-4ubuntu21.21 amd64 [upgradable from: 229-4ubuntu21.19]
+[32mlibwayland-egl1-mesa[0m/xenial-updates 18.0.5-0ubuntu0~16.04.1 amd64 [upgradable from: 12.0.6-0ubuntu0.16.04.1]
+[32mlibwbclient0[0m/xenial-updates,xenial-security 2:4.3.11+dfsg-0ubuntu0.16.04.19 amd64 [upgradable from: 2:4.3.11+dfsg-0ubuntu0.16.04.18]
+[32mlibxatracker2[0m/xenial-updates 18.0.5-0ubuntu0~16.04.1 amd64 [upgradable from: 12.0.6-0ubuntu0.16.04.1]
+[32mlibxslt1.1[0m/xenial-updates,xenial-security 1.1.28-2.1ubuntu0.2 amd64 [upgradable from: 1.1.28-2.1ubuntu0.1]
+[32mlinux-generic-hwe-16.04[0m/xenial-updates 4.15.0.48.69 amd64 [upgradable from: 4.15.0.39.62]
+[32mlinux-headers-generic-hwe-16.04[0m/xenial-updates 4.15.0.48.69 amd64 [upgradable from: 4.15.0.39.62]
+[32mlinux-image-generic-hwe-16.04[0m/xenial-updates 4.15.0.48.69 amd64 [upgradable from: 4.15.0.39.62]
+[32mlinux-libc-dev[0m/xenial-updates 4.4.0-146.172 amd64 [upgradable from: 4.4.0-145.171]
+[32mmodemmanager[0m/xenial-updates 1.6.4-1ubuntu0.16.04.1 amd64 [upgradable from: 1.4.12-1ubuntu1]
+[32mntfs-3g[0m/xenial-updates,xenial-security 1:2015.3.14AR.1-1ubuntu0.3 amd64 [upgradable from: 1:2015.3.14AR.1-1ubuntu0.2]
+[32msamba-libs[0m/xenial-updates,xenial-security 2:4.3.11+dfsg-0ubuntu0.16.04.19 amd64 [upgradable from: 2:4.3.11+dfsg-0ubuntu0.16.04.18]
+[32msnapd[0m/xenial-updates 2.38 amd64 [upgradable from: 2.37.4ubuntu0.1]
+[32msystemd[0m/xenial-updates,xenial-security 229-4ubuntu21.21 amd64 [upgradable from: 229-4ubuntu21.19]
+[32msystemd-sysv[0m/xenial-updates,xenial-security 229-4ubuntu21.21 amd64 [upgradable from: 229-4ubuntu21.19]
+[32mtzdata[0m/xenial-updates,xenial-updates,xenial-security,xenial-security 2019a-0ubuntu0.16.04 all [upgradable from: 2018i-0ubuntu0.16.04]
+[32mubuntu-core-launcher[0m/xenial-updates 2.38 amd64 [upgradable from: 2.37.4ubuntu0.1]
+[32mubuntu-desktop[0m/xenial-updates 1.361.3 amd64 [upgradable from: 1.361.2]
+[32mubuntu-minimal[0m/xenial-updates 1.361.3 amd64 [upgradable from: 1.361]
+[32mubuntu-standard[0m/xenial-updates 1.361.3 amd64 [upgradable from: 1.361.2]
+[32mudev[0m/xenial-updates,xenial-security 229-4ubuntu21.21 amd64 [upgradable from: 229-4ubuntu21.19]
+[32mwget[0m/xenial-updates,xenial-security 1.17.1-1ubuntu1.5 amd64 [upgradable from: 1.17.1-1ubuntu1.4]
+[32mwpasupplicant[0m/xenial-updates,xenial-security 2.4-0ubuntu6.4 amd64 [upgradable from: 2.4-0ubuntu6.3]
+[32mxserver-xorg-core-hwe-16.04[0m/xenial-updates,xenial-security 2:1.19.6-1ubuntu4.1~16.04.2 amd64 [upgradable from: 2:1.18.4-1ubuntu6.1~16.04.1]
+[32mxserver-xorg-hwe-16.04[0m/xenial-updates 1:7.7+16ubuntu3~16.04.1 amd64 [upgradable from: 1:7.7+13ubuntu4~16.04.2]
+[32mxserver-xorg-input-evdev-hwe-16.04[0m/xenial-updates 1:2.10.5-1ubuntu1~16.04.1 amd64 [upgradable from: 1:2.10.2-1ubuntu1~16.04.1]
+[32mxserver-xorg-input-synaptics-hwe-16.04[0m/xenial-updates 1.9.0-1ubuntu1~16.04.1 amd64 [upgradable from: 1.8.3-1ubuntu1~16.04.1]
+[32mxserver-xorg-input-wacom-hwe-16.04[0m/xenial-updates 1:0.34.0-0ubuntu2~16.04.1 amd64 [upgradable from: 1:0.33.0-0ubuntu1~16.04.1]
+[32mxserver-xorg-video-amdgpu-hwe-16.04[0m/xenial-updates 18.0.1-1~16.04.1 amd64 [upgradable from: 1.1.2-1~16.04.1]
+[32mxserver-xorg-video-ati-hwe-16.04[0m/xenial-updates 1:18.0.1-1~16.04.1 amd64 [upgradable from: 1:7.7.1-1~16.04.1]
+[32mxserver-xorg-video-fbdev-hwe-16.04[0m/xenial-updates 1:0.4.4-1build6~16.04.1 amd64 [upgradable from: 1:0.4.4-1build5~16.04.1]
+[32mxserver-xorg-video-intel-hwe-16.04[0m/xenial-updates 2:2.99.917+git20171229-1~16.04.1 amd64 [upgradable from: 2:2.99.917+git20160706-1ubuntu1~16.04.1]
+[32mxserver-xorg-video-nouveau-hwe-16.04[0m/xenial-updates 1:1.0.15-2~16.04.1 amd64 [upgradable from: 1:1.0.12-2~16.04.1]
+[32mxserver-xorg-video-qxl-hwe-16.04[0m/xenial-updates 0.1.5-2build1~16.04.1 amd64 [upgradable from: 0.1.4-3ubuntu3~16.04.1]
+[32mxserver-xorg-video-radeon-hwe-16.04[0m/xenial-updates 1:18.0.1-1~16.04.1 amd64 [upgradable from: 1:7.7.1-1~16.04.1]
+[32mxserver-xorg-video-vesa-hwe-16.04[0m/xenial-updates 1:2.3.4-1build3~16.04.1 amd64 [upgradable from: 1:2.3.4-1build2~16.04.1]
+[32mxserver-xorg-video-vmware-hwe-16.04[0m/xenial-updates 1:13.2.1-1build1~16.04.1 amd64 [upgradable from: 1:13.1.0-2ubuntu3~16.04.1]
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ sudo apt search vlc
+
+Sorting... 0%
+
+Sorting... 0%
+
+Sorting... 1%
+
+Sorting... Done
+
+
+Full Text Search... 50%
+
+Full Text Search... 50%
+
+Full Text Search... 51%
+
+Full Text Search... Done
+
+[32mbrowser-plugin-vlc[0m/xenial 2.0.6-4 amd64
+  multimedia plugin for web browsers based on VLC
+
+[32mcubemap[0m/xenial 1.2.1-1 amd64
+  scalable video reflector, designed to be used with VLC
+
+[32mdvblast[0m/xenial 3.0-1 amd64
+  Simple and powerful dvb-streaming application
+
+[32mfp-units-multimedia[0m/xenial 3.0.0+dfsg-2 amd64
+  Free Pascal - multimedia units dependency package
+
+[32mfp-units-multimedia-3.0.0[0m/xenial 3.0.0+dfsg-2 amd64
+  Free Pascal - multimedia units
+
+[32mfreeplayer[0m/xenial,xenial 20070531+dfsg.1-5 all
+  wrapper around vlc for French ADSL FreeBox
+
+[32mfreetuxtv[0m/xenial 0.6.6~dfsg1-1 amd64
+  Internet television and radio player
+
+[32mgetstream[0m/xenial 20081204-1.2ubuntu1 amd64
+  DVB streaming application
+
+[32mhdhomerun-config[0m/xenial 20150826-2 amd64
+  Configuration utility for Silicon Dust HD HomeRun
+
+[32mhdhomerun-config-gui[0m/xenial-updates 20150826-0ubuntu1.16.04.0 amd64
+  GUI Configuration utility for Silicon Dust HD HomeRun
+
+[32mladitools[0m/xenial,xenial 1.1.0-2 all
+  Linux Audio Desktop Integration Tools
+
+[32mlibbluray-bdj[0m/xenial,xenial 1:0.9.2-2 all
+  Blu-ray Disc Java support library (BD-J library)
+
+[32mlibbluray-bin[0m/xenial 1:0.9.2-2 amd64
+  Blu-ray disc playback support library (tools)
+
+[32mlibbluray-dev[0m/xenial 1:0.9.2-2 amd64
+  Blu-ray disc playback support library (development files)
+
+[32mlibbluray-doc[0m/xenial,xenial 1:0.9.2-2 all
+  Blu-ray disc playback support library (documentation)
+
+[32mlibbluray1[0m/xenial 1:0.9.2-2 amd64
+  Blu-ray disc playback support library (shared library)
+
+[32mlibdvd-pkg[0m/xenial,xenial 1.4.0-1-1 all
+  DVD-Video playing library - installer
+
+[32mlibhdhomerun-dev[0m/xenial 20150826-2 amd64
+  Development library for Silicon Dust HD HomeRun
+
+[32mlibhdhomerun2[0m/xenial 20150826-2 amd64
+  Library for Silicon Dust HD HomeRun
+
+[32mlibvcdinfo-dev[0m/xenial 0.7.24+dfsg-0.2 amd64
+  library to extract information from VideoCD (development files)
+
+[32mlibvcdinfo0[0m/xenial 0.7.24+dfsg-0.2 amd64
+  library to extract information from VideoCD
+
+[32mlibvlc-dev[0m/xenial-updates,xenial-security 2.2.2-5ubuntu0.16.04.4 amd64
+  development files for libvlc
+
+[32mlibvlc5[0m/xenial-updates,xenial-security 2.2.2-5ubuntu0.16.04.4 amd64
+  multimedia player and streamer library
+
+[32mlibvlccore-dev[0m/xenial-updates,xenial-security 2.2.2-5ubuntu0.16.04.4 amd64
+  development files for libvlccore
+
+[32mlibvlccore8[0m/xenial-updates,xenial-security 2.2.2-5ubuntu0.16.04.4 amd64
+  base library for VLC and its modules
+
+[32mlivestreamer[0m/xenial,xenial 1.12.2-1 all
+  CLI that pipes video streams to video players
+
+[32mmimms[0m/xenial,xenial 3.2.2-1.1 all
+  mms (e.g. mms://) stream downloader
+
+[32mmpris-remote[0m/xenial,xenial 0.0~1.gpb7c7f5c6-1.1 all
+  command-line interface for mpris compatible media players
+
+[32mmythbuntu-lirc-generator[0m/xenial,xenial 0.26-0ubuntu2 all
+  Mythbuntu Lirc Configuration Generator
+
+[32mphonon-backend-vlc[0m/xenial 0.8.2-1ubuntu3 amd64
+  Phonon VLC backend
+
+[32mphonon-backend-vlc-dbg[0m/xenial 0.8.2-1ubuntu3 amd64
+  Phonon VLC backend debugging symbols
+
+[32mphonon4qt5-backend-vlc[0m/xenial 0.8.2-1ubuntu3 amd64
+  Phonon4Qt5 VLC backend
+
+[32mphonon4qt5-backend-vlc-dbg[0m/xenial 0.8.2-1ubuntu3 amd64
+  Phonon4Qt5 VLC backend debugging symbols
+
+[32mpidgin-mpris[0m/xenial 0.2.3-2 amd64
+  sets your available message to your currently playing track
+
+[32mpython3-pafy[0m/xenial,xenial 0.3.80-1build1 all
+  Download videos and retrieve metadata from YouTube
+
+[32msmtube[0m/xenial 15.5.10-1 amd64
+  YouTube videos browser
+
+[32mvlc[0m/xenial-updates,xenial-security 2.2.2-5ubuntu0.16.04.4 amd64
+  multimedia player and streamer
+
+[32mvlc-data[0m/xenial-updates,xenial-updates,xenial-security,xenial-security 2.2.2-5ubuntu0.16.04.4 all
+  Common data for VLC
+
+[32mvlc-nox[0m/xenial-updates,xenial-security 2.2.2-5ubuntu0.16.04.4 amd64
+  multimedia player and streamer (without X support)
+
+[32mvlc-plugin-fluidsynth[0m/xenial-updates,xenial-security 2.2.2-5ubuntu0.16.04.4 amd64
+  FluidSynth plugin for VLC
+
+[32mvlc-plugin-jack[0m/xenial-updates,xenial-security 2.2.2-5ubuntu0.16.04.4 amd64
+  Jack audio plugins for VLC
+
+[32mvlc-plugin-notify[0m/xenial-updates,xenial-security 2.2.2-5ubuntu0.16.04.4 amd64
+  LibNotify plugin for VLC
+
+[32mvlc-plugin-samba[0m/xenial-updates,xenial-security 2.2.2-5ubuntu0.16.04.4 amd64
+  Samba plugin for VLC
+
+[32mvlc-plugin-sdl[0m/xenial-updates,xenial-security 2.2.2-5ubuntu0.16.04.4 amd64
+  SDL video and audio output plugin for VLC
+
+[32mvlc-plugin-svg[0m/xenial-updates,xenial-security 2.2.2-5ubuntu0.16.04.4 amd64
+  SVG plugin for VLC
+
+[32mvlc-plugin-vlsub[0m/xenial,xenial 0.9.13-1 all
+  VLC extension to download subtitles from opensubtitles.org
+
+[32mvlc-plugin-zvbi[0m/xenial-updates,xenial-security 2.2.2-5ubuntu0.16.04.4 amd64
+  VBI teletext plugin for VLC
+
+[32mx264[0m/xenial 2:0.148.2643+git5c65704-1 amd64
+  video encoder for the H.264/MPEG-4 AVC standard
+
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ sudo apt inst[K[K[K[K[K[Kt-get install vlx[K[K[K[K[K[K[K[K[K[K[Kupgrade [K[K[K[Kade vlc
+
+Reading package lists... 0%
+
+Reading package lists... 100%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree       
+
+
+Reading state information... 0%
+
+Reading state information... 1%
+
+Reading state information... Done
+
+
+Calculating upgrade... 0%
+
+Calculating upgrade... 50%
+
+Calculating upgrade... Done
+
+The following package was automatically installed and is no longer required:
+  snapd-login-service
+Use 'sudo apt autoremove' to remove it.
+The following NEW packages will be installed:
+  i965-va-driver liba52-0.7.4 libaacs0 libass5 libavcodec-ffmpeg56 libavformat-ffmpeg56 libavutil-ffmpeg54
+  libbasicusageenvironment1 libbdplus0 libbluray1 libcddb2 libchromaprint0 libcrystalhd3 libdc1394-22 libdca0 libdirectfb-1.2-9
+  libdrm-common libdvbpsi10 libdvdnav4 libdvdread4 libebml4v5 libfaad2 libgles2-mesa libgme0 libgroupsock8 libgsm1 libiso9660-8
+  libkate1 liblivemedia50 libllvm6.0 libmad0 libmatroska6v5 libmodplug1 libmp3lame0 libmpcdec6 libmpeg2-4 libopenjpeg5
+  libpostproc-ffmpeg53 libproxy-tools libqt5x11extras5 libresid-builder0c2a libschroedinger-1.0-0 libsdl-image1.2 libsdl1.2debian
+  libshine3 libsidplay2v5 libsnappy1v5 libsoxr0 libssh-gcrypt-4 libssh2-1 libswresample-ffmpeg1 libswscale-ffmpeg3 libtwolame0
+  libupnp6 libusageenvironment3 libva-drm1 libva-x11-1 libva1 libvcdinfo0 libvlc5 libvlccore8 libx264-148 libx265-79
+  libxcb-composite0 libxcb-xv0 libxvidcore4 libzvbi-common libzvbi0 mesa-va-drivers va-driver-all vlc vlc-data vlc-nox
+  vlc-plugin-notify vlc-plugin-samba
+The following packages have been kept back:
+  libinput10 libmm-glib0 libqmi-proxy linux-generic-hwe-16.04 linux-headers-generic-hwe-16.04 linux-image-generic-hwe-16.04
+  modemmanager ubuntu-minimal xserver-xorg-core-hwe-16.04 xserver-xorg-hwe-16.04 xserver-xorg-input-evdev-hwe-16.04
+  xserver-xorg-input-synaptics-hwe-16.04 xserver-xorg-input-wacom-hwe-16.04 xserver-xorg-video-amdgpu-hwe-16.04
+  xserver-xorg-video-ati-hwe-16.04 xserver-xorg-video-fbdev-hwe-16.04 xserver-xorg-video-intel-hwe-16.04
+  xserver-xorg-video-nouveau-hwe-16.04 xserver-xorg-video-qxl-hwe-16.04 xserver-xorg-video-radeon-hwe-16.04
+  xserver-xorg-video-vesa-hwe-16.04 xserver-xorg-video-vmware-hwe-16.04
+The following packages will be upgraded:
+  code console-setup console-setup-linux distro-info-data firefox firefox-locale-en keyboard-configuration libdrm-amdgpu1 libdrm2
+  libegl1-mesa libgbm1 libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa libpam-systemd libsmbclient libsnapd-glib1 libsystemd0
+  libudev1 libwayland-egl1-mesa libwbclient0 libxatracker2 libxslt1.1 linux-libc-dev ntfs-3g samba-libs snapd systemd systemd-sysv
+  tzdata ubuntu-core-launcher ubuntu-desktop ubuntu-standard udev wget wpasupplicant
+36 upgraded, 75 newly installed, 0 to remove and 22 not upgraded.
+Need to get 172 MB of archives.
+After this operation, 180 MB of additional disk space will be used.
+Do you want to continue? [Y/n] n
+Abort.
+]0;s4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower: ~[01;32ms4-d2@clab1-HP-Compaq-dc7900-Convertible-Minitower[00m:[01;34m~[00m$ exir[Kt
+exit
+
+Script done on Thursday 25 April 2019 10:18:11 AM IST
